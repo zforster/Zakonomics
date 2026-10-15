@@ -5,7 +5,7 @@
   <h1 class="post-title">{{ .Title }}</h1>
   {{ with .Description }}<p class="post-subtitle">{{ . }}</p>{{ end }}
   <div class="byline">
-    <img src="{{ "apple-touch-icon.png" | relURL }}" alt="" class="byline-avatar" width="40" height="40">
+    <img src="{{ "logo.svg" | relURL }}" alt="" class="byline-avatar" width="40" height="40">
     <div>
       {{ with .Site.Params.author.name }}<div class="byline-name">{{ . }}</div>{{ end }}
       <div class="post-meta">
