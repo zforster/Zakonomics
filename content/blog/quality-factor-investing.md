@@ -36,13 +36,69 @@ It's not a magic shield, though. In 2022 the quality index fell 19.2%, slightly 
 
 ## How IWFQ picks its companies
 
-The index starts with the roughly 1,300 large and mid-sized companies in the MSCI World and scores each on three measures:
+IWFQ simply copies an index, the **MSCI World Sector Neutral Quality Index**, so the stock picking is entirely rules-based. MSCI publishes the full methodology. Here's how it works, step by step.
 
-1. **Return on equity**: how much profit it makes on shareholders' money.
-2. **Debt to equity**: how much it relies on borrowing.
-3. **Earnings variability**: how steady its profits have been.
+### Step 1: Start with the MSCI World
 
-It keeps the best-scoring companies *within each sector*, so it doesn't simply turn into a tech fund. Weights are a mix of company size and quality score, and it rebalances twice a year. It's cheap, too: about **0.25% a year**, with no star manager to pay or to depend on.
+The starting point, or "parent index", is the **MSCI World**: about 1,300 large and mid-sized companies across 23 developed countries, weighted by size. This is what a typical global tracker fund owns.
+
+### Step 2: Measure three things
+
+Every company gets measured on three numbers taken from its accounts:
+
+| Measure | How it's calculated | What it rewards |
+|---|---|---|
+| **Return on equity** | Last 12 months' earnings per share ÷ latest book value per share | Making lots of profit from shareholders' money |
+| **Debt to equity** | Total debt ÷ book value, from the latest annual accounts | Low borrowing |
+| **Earnings variability** | How much annual earnings growth has bounced around over the last five years | Steady, predictable profits |
+
+A company with no return on equity figure is out straight away, and it needs at least one of the other two measures to be scored.
+
+The three measures check each other. Share buybacks, for example, shrink a company's book value, which can make its return on equity look better while making its debt ratio look worse. A business can't easily game all three at once.
+
+### Step 3: Turn them into one score
+
+Raw numbers aren't comparable (a percentage return and a debt ratio are different things), so MSCI standardises them:
+
+1. **Trim the extremes.** Outliers are capped so one freakish number can't distort everything.
+2. **Convert to z-scores.** Each measure becomes "how many standard deviations above or below average". Debt and earnings variability are flipped, so *less* debt and *steadier* earnings score higher.
+3. **Average the three** into a single quality score.
+
+### Step 4: Compare within each sector
+
+This is the "sector neutral" part. Each company's score is re-standardised *against its own sector*. A bank is judged against other banks and a software firm against other software firms.
+
+That matters because sectors look very different. Banks naturally carry lots of debt and utilities have heavy borrowing for infrastructure. Comparing them with software companies would push them out entirely. Within-sector scoring finds the *best bank* and the *best utility*, not just the companies in naturally high-margin industries.
+
+### Step 5: Keep the top ~300
+
+The index keeps a fixed number of the highest-scoring companies, around 300. To stop it churning, there's a buffer: a company already in the index stays as long as it ranks in roughly the top 360, while a newcomer has to make the top 240 to get in.
+
+### Step 6: Weight by size *and* quality
+
+Each company's weight is its normal market-cap weight **multiplied by its quality score**. Take two companies of the same size: one with a quality score of 2 gets twice the weight of one scoring 1. Big, high-quality businesses end up as the largest holdings. No single company can be more than **5%** of the index.
+
+### Step 7: Match the parent's sector weights
+
+Finally, the weights are scaled so each sector makes up the same share of the quality index as it does of the MSCI World. If tech is around 30% of the MSCI World, it's around 30% of the quality index too. Only the companies *within* each sector change.
+
+### Step 8: Repeat twice a year
+
+The index is rebuilt at the end of every **May and November** using the latest accounts.
+
+### The result, compared with the base index
+
+| | MSCI World | Quality index |
+|---|---|---|
+| Number of companies | ~1,300 | ~300 |
+| How weights are set | Company size | Size × quality score |
+| Sector weights | Market-driven | Matched to MSCI World |
+| Biggest single holding | No cap | Capped at 5% |
+| Annual turnover | 3% | 26% |
+| Price to book value | 4.1x | 6.7x |
+| Price to earnings | 22.7x | 23.9x |
+
+So the quality index ends up with the same sector mix as the market, but holds the strongest companies in each sector, and pays a premium for them. Turnover is higher than a plain tracker, though at around a quarter of the portfolio a year, it's still modest. The fund costs about **0.25% a year**, with no star manager to pay or depend on.
 
 ## Why quality matters more in the AI boom
 
@@ -65,7 +121,7 @@ Comparing IWFQ's holdings with the S&P 500 on 13 October 2026, these AI-linked n
 | AMD | 1.47% | Low return on equity, diluted by the Xilinx acquisition |
 | Intel | 0.76% | Recent heavy losses |
 | Palantir | 0.71% | Short, volatile history of profitability |
-| Oracle | 0.37% | Debt over 4x equity, negative free cash flow |
+| Oracle | 0.37% | Debt over 4x book equity |
 | **Total** | **12.78%** | |
 
 MSCI doesn't publish individual scores, so the reasons are my reading of where each one falls down. Only some fail on debt. Others fail on erratic earnings or weak returns. The screen isn't anti-AI. It's anti-fragile-balance-sheet and anti-unreliable-profits.
@@ -111,7 +167,7 @@ The AI boom makes that discipline more useful, not less. Some of the borrowing w
 
 ### Sources
 
-- [MSCI World Sector Neutral Quality Index factsheet](https://www.msci.com/documents/10199/255599/msci-world-sector-neutral-quality-index-usd-net.pdf) (data to 30 September 2026) and [methodology](https://www.msci.com/indexes/documents/methodology/2_MSCI_Quality_Indexes_Methodology_20250520.pdf)
+- [MSCI World Sector Neutral Quality Index factsheet](https://www.msci.com/documents/10199/255599/msci-world-sector-neutral-quality-index-usd-net.pdf) (data to 30 September 2026) and [MSCI Quality Indexes methodology](https://www.msci.com/eqb/methodology/meth_docs/MSCI_Quality_Indexes_Methodology_May2022.pdf) (latest version [here](https://www.msci.com/indexes/documents/methodology/2_MSCI_Quality_Indexes_Methodology_20250520.pdf))
 - [Asness, Frazzini & Pedersen, *Quality Minus Junk*](https://papers.ssrn.com/abstract=2312432)
 - Holdings: [iShares IWFQ](https://www.ishares.com/uk/individual/en/products/270054/) and [iShares CSPX (S&P 500)](https://www.ishares.com/uk/individual/en/products/253743/), as of 13 October 2026
 - [Hyperscaler bond issuance (Reuters/BNP Paribas via MLQ)](https://mlq.ai/news/hyperscaler-bond-issuance-reaches-about-220-billion-as-ai-financing-costs-rise/) and [CNBC on Big Tech's bond binge](https://www.cnbc.com/2026/02/23/big-techs-ai-bond-binge-shatters-unspoken-contract-with-investors.html)
