@@ -17,8 +17,10 @@
   --border-color: #e6e6e6;
 }
 
+/* Dark mode: follows the device unless the reader picks one with the toggle
+   (data-theme on <html>, set by custom_head.html) */
 @media (prefers-color-scheme: dark) {
-  :root {
+  :root:not([data-theme="light"]) {
     --accent: #2dd4bf;
     --accent-soft: rgba(45, 212, 191, 0.1);
     --bg-color-primary: #151617;
@@ -28,6 +30,17 @@
     --text-color-tertiary: #8d8d8d;
     --border-color: #2c2f31;
   }
+}
+
+:root[data-theme="dark"] {
+  --accent: #2dd4bf;
+  --accent-soft: rgba(45, 212, 191, 0.1);
+  --bg-color-primary: #151617;
+  --bg-color-secondary: #1e2022;
+  --text-color-primary: #ececec;
+  --text-color-secondary: #b5b5b5;
+  --text-color-tertiary: #8d8d8d;
+  --border-color: #2c2f31;
 }
 
 /* Full-width page; each region centres its own column */
@@ -123,6 +136,42 @@ nav.tabs a {
 nav.tabs a:hover {
   color: var(--text-color-primary);
   text-decoration: none;
+}
+
+/* Light/dark toggle */
+.theme-toggle {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  align-self: center;
+  width: 34px;
+  height: 34px;
+  margin-bottom: 2px;
+  padding: 0;
+  border: 1px solid var(--border-color);
+  border-radius: 50%;
+  background: none;
+  color: var(--text-color-secondary);
+  cursor: pointer;
+}
+
+.theme-toggle:hover {
+  color: var(--text-color-primary);
+  border-color: var(--text-color-tertiary);
+}
+
+.theme-toggle svg {
+  width: 16px;
+  height: 16px;
+}
+
+.theme-toggle .icon-sun,
+:root[data-theme="dark"] .theme-toggle .icon-moon {
+  display: none;
+}
+
+:root[data-theme="dark"] .theme-toggle .icon-sun {
+  display: block;
 }
 
 nav.tabs a.active {
