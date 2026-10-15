@@ -1,10 +1,10 @@
 +++
 title = "The Case for Quality Factor Investing"
 date = 2026-10-15T06:00:00Z
-draft = true
+draft = false
 slug = 'quality-factor-investing'
 tags = ['investing', 'ETFs', 'quality factor', 'AI']
-description = "TODO: one-line subtitle"
+description = "Work in progress: notes and research for a post on quality factor investing."
 +++
 
 <!--
