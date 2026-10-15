@@ -21,7 +21,7 @@ ignoreErrors = ['error-disable-taxonomy']
   groupByYear = true
   showPostCount = false
   postSearch = true
-  toc = true
+  toc = false
   imageZoom = true
 
   [params.footer]
