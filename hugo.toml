@@ -1,0 +1,86 @@
+baseURL = 'https://zforster.github.io/zakonomics/'
+title = 'Zakonomics'
+theme = 'mana'
+defaultContentLanguage = 'en'
+languageCode = 'en-GB'
+enableRobotsTXT = true
+
+[pagination]
+  pageSize = 10
+
+[markup]
+  [markup.tableOfContents]
+    startLevel = 2
+    endLevel = 4
+    ordered = false
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+    [markup.goldmark.parser]
+      [markup.goldmark.parser.attribute]
+        block = true
+        title = true
+  [markup.highlight]
+    codeFences = true
+    guessSyntax = true
+    noClasses = false
+    style = 'catppuccin-macchiato'
+
+[outputs]
+  home = ['HTML', 'RSS', 'JSON']
+
+[sitemap]
+  changefreq = 'weekly'
+  priority = 0.5
+  filename = 'sitemap.xml'
+
+[params]
+  enableIntegrity = false
+  relatedPostsCount = 3
+  description = 'Economics, explained plainly.'
+  author = 'Zak Forster'
+  heroTitleLine1 = 'ZAKONOMICS'
+  heroTitleLine2 = 'ECONOMICS, EXPLAINED PLAINLY'
+  footerText = 'Built with Hugo and the Mana theme'
+  custom404Message = "Sorry, that page doesn't exist. Even the invisible hand couldn't find it."
+
+
+  [params.avatar]
+    assetPath = 'images/logo.svg'
+
+  [params.social]
+    github = 'https://github.com/zforster'
+
+  [params.buyMeACoffee]
+    enabled = false
+
+  [params.codeHighlight]
+    darkTheme = 'catppuccin-macchiato'
+    lightTheme = 'catppuccin-frappe'
+
+  [params.copyright]
+    startYear = 2026
+    owner = 'Zak Forster'
+
+  [params.admonitions]
+    alertStyle = 'favicon'
+
+[[menus.main]]
+  name = 'Home'
+  pageRef = '/'
+  weight = 10
+
+[[menus.main]]
+  name = 'Posts'
+  pageRef = '/posts'
+  weight = 20
+
+[[menus.main]]
+  name = 'Tags'
+  pageRef = '/tags'
+  weight = 30
+
+[[menus.main]]
+  name = 'About'
+  url = '/about/'
+  weight = 40
