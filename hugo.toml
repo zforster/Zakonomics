@@ -26,6 +26,7 @@ ignoreErrors = ['error-disable-taxonomy']
 
   [params.footer]
     hideRSSAndEmail = true
+    hideMadeWithLine = true
 
   [params.author]
     name = 'Zak Forster'
