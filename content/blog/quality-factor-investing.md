@@ -1,5 +1,5 @@
 +++
-title = "Why Quality Investing Is More Relevant Than Ever"
+title = "Why Quality Factor Investing Is More Relevant Than Ever"
 date = 2026-10-15T06:00:00Z
 draft = false
 slug = 'quality-factor-investing'
