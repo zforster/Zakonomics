@@ -1,0 +1,9 @@
+<li class="post-row">
+  <a href="{{ .Permalink }}" class="post-row-title">{{ .Title }}</a>
+  {{ with .Description }}<p class="post-row-subtitle">{{ . }}</p>{{ end }}
+  <p class="post-meta">
+    <time datetime='{{ .Date.Format "2006-01-02" }}'>{{ .Date.Format "Jan 2, 2006" }}</time>
+    {{ with .Site.Params.author.name }}<span class="dot">·</span>{{ . }}{{ end }}
+    <span class="dot">·</span>{{ .ReadingTime }} min read
+  </p>
+</li>

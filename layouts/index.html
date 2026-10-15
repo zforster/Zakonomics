@@ -1,0 +1,17 @@
+{{ define "main" }}
+{{ $posts := where (where .Site.RegularPages "Type" "blog") "Params.hidden" "!=" true }}
+{{ with .Content }}<div class="home-intro">{{ . }}</div>{{ end }}
+{{ with first 1 $posts }}{{ range . }}
+<a href="{{ .Permalink }}" class="featured">
+  <span class="featured-label">Latest</span>
+  <span class="featured-title">{{ .Title }}</span>
+  {{ with .Description }}<span class="featured-subtitle">{{ . }}</span>{{ end }}
+  <span class="post-meta">{{ .Date.Format "Jan 2, 2006" }}{{ with .Site.Params.author.name }}<span class="dot">·</span>{{ . }}{{ end }}<span class="dot">·</span>{{ .ReadingTime }} min read</span>
+</a>
+{{ end }}{{ end }}
+{{ with after 1 $posts }}
+<h2 class="section-label">More posts</h2>
+<ul class="blog-posts">{{ range . }}{{ partial "post-row.html" . }}{{ end }}</ul>
+<p><a href="{{ "blog/" | relURL }}" class="see-all">See all →</a></p>
+{{ end }}
+{{ end }}

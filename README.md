@@ -27,6 +27,7 @@ Pushes to `main`/`master` build and deploy to GitHub Pages via
 ## Customise
 
 - Site settings and menu: `hugo.toml`
+- Substack-style look: `assets/css/substack.css` plus template overrides in `layouts/`
 - Favicons: `static/`
 - Home page: `content/_index.md`
 - About page: `content/about.md`
