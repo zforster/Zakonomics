@@ -139,14 +139,19 @@ nav.tabs a:hover {
 }
 
 /* Light/dark toggle */
+header {
+  position: relative;
+}
+
 .theme-toggle {
+  position: absolute;
+  top: 16px;
+  right: 16px;
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  align-self: center;
   width: 34px;
   height: 34px;
-  margin-bottom: 2px;
   padding: 0;
   border: 1px solid var(--border-color);
   border-radius: 50%;
