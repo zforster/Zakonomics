@@ -27,6 +27,7 @@ Pushes to `main`/`master` build and deploy to GitHub Pages via
 ## Customise
 
 - Site settings, hero text, social links, menu: `hugo.toml`
-- Avatar/logo: `assets/images/logo.svg`
+- Colours: `assets/css/custom.css` (overrides the theme's CSS variables; loaded via `layouts/partials/head/css.html`)
+- Avatar/logo: `assets/images/logo.svg` (favicons in `static/` are rendered from it)
 - About page: `content/about/index.md`
 - Theme options: see `themes/mana/README.md`
