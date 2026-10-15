@@ -2,12 +2,12 @@
 title = 'Why I Buy Quality: IWFQ in the AI Age'
 date = 2026-10-15T06:00:00Z
 draft = false
-tags = ['investing', 'etfs', 'quality factor', 'ai']
+slug = 'why-i-buy-quality-iwfq'
+tags = ['investing', 'ETFs', 'quality factor', 'AI']
 description = "Why a rules-based quality factor fund is my core holding while everyone argues about who wins the AI race."
 +++
 
-> [!IMPORTANT]
-> This is a write-up of my own thinking, not financial advice. Do your own research, and check the latest factsheet before buying anything.
+> **Note:** this is a write-up of my own thinking, not financial advice. Do your own research, and check the latest factsheet before buying anything.
 
 Everyone has an opinion on who wins the AI race. Will it be the chipmakers, the hyperscalers, the model labs, or companies nobody has heard of yet? I don't know. I'm fairly sure nobody else does either.
 

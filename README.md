@@ -1,6 +1,6 @@
 # Zakonomics
 
-A Hugo static site using the [Mana theme](https://github.com/Livour/hugo-mana-theme).
+A Hugo static site using the [Bear Neo theme](https://github.com/rokcso/hugo-bearneo).
 
 ## Setup
 
@@ -16,7 +16,7 @@ Requires [Hugo Extended](https://gohugo.io/installation/) 0.100+.
 
 ```bash
 hugo server -D     # http://localhost:1313, includes drafts
-hugo new content posts/my-post.md
+hugo new content blog/my-post.md
 ```
 
 ## Deploy
@@ -26,8 +26,8 @@ Pushes to `main`/`master` build and deploy to GitHub Pages via
 
 ## Customise
 
-- Site settings, hero text, social links, menu: `hugo.toml`
-- Colours: `assets/css/custom.css` (overrides the theme's CSS variables; loaded via `layouts/partials/head/css.html`)
-- Avatar/logo: `assets/images/logo.svg` (favicons in `static/` are rendered from it)
-- About page: `content/about/index.md`
-- Theme options: see `themes/mana/README.md`
+- Site settings and menu: `hugo.toml`
+- Favicons: `static/`
+- Home page: `content/_index.md`
+- About page: `content/about.md`
+- Theme options: see `themes/hugo-bearneo/README.md`
