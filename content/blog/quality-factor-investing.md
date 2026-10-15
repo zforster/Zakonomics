@@ -1,19 +1,17 @@
 +++
-title = "Why I Swapped Fundsmith for a Quality Factor ETF"
+title = "The Case for Quality Factor Investing"
 date = 2026-10-15T06:00:00Z
 draft = false
-slug = 'fundsmith-to-iwfq'
-tags = ['investing', 'ETFs', 'quality factor', 'Fundsmith']
-description = "I still believe in buying great businesses. I just stopped paying a star manager 1% a year to do it."
+slug = 'quality-factor-investing'
+tags = ['investing', 'ETFs', 'quality factor']
+description = "Why owning profitable, low-debt, steady businesses is the core of how I invest, and how I do it cheaply with IWFQ."
 +++
 
 > **Note:** this is a write-up of my own thinking, not financial advice. Figures are from the latest factsheets and holdings data available in October 2026. Check them yourself before buying anything.
 
-For years my core holding was **Fundsmith Equity**. Terry Smith's pitch is about as simple as investing gets: *buy good companies, don't overpay, do nothing.* I bought into that completely, and I still do.
+If I had to sum up my investing in one sentence, it would be: *own good businesses and leave them alone.*
 
-What changed is *how* I get that exposure. These days I hold the **iShares Edge MSCI World Quality Factor ETF (IWFQ)** instead. It's built on the same core idea, owning profitable, financially strong businesses, but it does it by rules rather than by one person's judgement, at about a quarter of the cost.
-
-This post explains why I think quality is worth owning, why I moved away from Fundsmith, and what IWFQ quietly keeps out of my portfolio.
+That idea has a name, **quality factor investing**. It's the core of my portfolio, through the **iShares Edge MSCI World Quality Factor ETF (IWFQ)**. This post explains what quality is, what the evidence says, why I do it through a cheap index fund rather than a star manager, and what it protects me from (a little) when markets turn.
 
 ## What "quality" means
 
@@ -36,9 +34,9 @@ An extra 0.8% a year doesn't sound like much. Compounded over 28 years, it adds 
 
 It's not a magic shield, though. In 2022 the quality index fell 19.2%, slightly *more* than the market's 18.1%, because rising interest rates hit expensive tech and growth stocks hard. And the early years are back-tested, because the index only launched in 2014. The edge is real but modest.
 
-## Why I left Fundsmith
+## Why an index, not a star manager
 
-To be clear, Fundsmith has been a brilliant fund. Since launching in 2010 it has returned around 590%, against about 523% for the MSCI World. I don't regret owning it. But over time a few things bothered me.
+The best-known quality investor in the UK is Terry Smith, whose Fundsmith Equity fund I used to own. His pitch is simple: *buy good companies, don't overpay, do nothing.* It's been a brilliant fund, returning around 590% since 2010 against about 523% for the MSCI World. But I now get my quality exposure from an index instead, for a few reasons.
 
 **1. The cost.** Fundsmith's ongoing charge is about **1.05% a year**. IWFQ's is about **0.25%**. On a £100,000 portfolio, that's £1,050 a year against £250, every year, compounding against me.
 
@@ -60,7 +58,7 @@ The index starts with the roughly 1,300 large and mid-sized companies in the MSC
 
 It keeps the best-scoring companies *within each sector*, so it doesn't simply turn into a tech fund. Weights are a mix of company size and quality score, and it rebalances twice a year.
 
-The top holdings today look a lot like a Terry Smith wish list: **Microsoft, Apple, Nvidia, Meta, Visa, ASML, Eli Lilly, Mastercard**, plus steady compounders like TJX, Costco and Caterpillar.
+The top holdings today read like a who's who of quality businesses: **Microsoft, Apple, Nvidia, Meta, Visa, ASML, Eli Lilly, Mastercard**, plus steady compounders like TJX, Costco and Caterpillar.
 
 ## What it keeps out, and why that might matter
 
@@ -83,7 +81,7 @@ The screen isn't perfect. Meta is one of IWFQ's biggest holdings despite borrowi
 
 ## The bottom line
 
-I still believe in what Terry Smith taught me: own great businesses and leave them alone. IWFQ lets me do that across almost 300 companies, with no dependence on one manager, for a quarter of the price.
+Quality investing comes down to a simple idea: own great businesses and leave them alone. IWFQ lets me do that across almost 300 companies, with no dependence on one manager, for a fraction of the price of an active fund.
 
 It won't win every year, and it won't make me immune to a crash. But it keeps me in profitable, low-debt businesses and out of the most fragile corners of the market. And it does that cheaply enough that the fees aren't eating my returns.
 
