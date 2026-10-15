@@ -21,9 +21,9 @@ hugo new content blog/my-post.md
 
 ## Deploy
 
-Pushes to `main` build and deploy to GitHub Pages via
-`.github/workflows/hugo.yml`. Enable it under **Settings → Pages → Source: GitHub Actions**,
-then set the custom domain to `zakonomics.com` (also in `static/CNAME`).
+Pushes to `main` build the site and publish it to the `gh-pages` branch
+(`.github/workflows/hugo.yml`), which GitHub Pages serves at
+<https://zforster.github.io/Zakonomics/>.
 
 ## Customise
 

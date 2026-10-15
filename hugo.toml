@@ -1,4 +1,4 @@
-baseURL = 'https://zakonomics.com/'
+baseURL = 'https://zforster.github.io/Zakonomics/'
 title = 'Zakonomics'
 theme = 'hugo-bearneo'
 languageCode = 'en-GB'
@@ -27,6 +27,7 @@ ignoreErrors = ['error-disable-taxonomy']
   [params.footer]
     hideRSSAndEmail = true
     hideMadeWithLine = true
+    hideSitemap = true
 
   [params.author]
     name = 'Zak'
