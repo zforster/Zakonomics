@@ -1,4 +1,4 @@
-baseURL = 'https://zforster.github.io/zakonomics/'
+baseURL = 'https://zakonomics.com/'
 title = 'Zakonomics'
 theme = 'hugo-bearneo'
 languageCode = 'en-GB'

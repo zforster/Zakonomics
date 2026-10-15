@@ -21,8 +21,9 @@ hugo new content blog/my-post.md
 
 ## Deploy
 
-Pushes to `main`/`master` build and deploy to GitHub Pages via
-`.github/workflows/hugo.yml`. Enable it under **Settings → Pages → Source: GitHub Actions**.
+Pushes to `main`/`master`/`hugo-substack-site` build and deploy to GitHub Pages via
+`.github/workflows/hugo.yml`. Enable it under **Settings → Pages → Source: GitHub Actions**,
+then set the custom domain to `zakonomics.com` (also in `static/CNAME`).
 
 ## Customise
 
