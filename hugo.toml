@@ -17,7 +17,7 @@ ignoreErrors = ['error-disable-taxonomy']
   title = 'Zakonomics'
   description = 'Economics, explained plainly.'
   favicon = 'favicon.png'
-  copyright = 'Copyright © 2026, Zak Forster.'
+  copyright = 'Copyright © 2026, Zak.'
   groupByYear = true
   showPostCount = false
   postSearch = true
@@ -29,7 +29,7 @@ ignoreErrors = ['error-disable-taxonomy']
     hideMadeWithLine = true
 
   [params.author]
-    name = 'Zak Forster'
+    name = 'Zak'
 
 [[menus.main]]
   name = 'About'
