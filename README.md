@@ -23,7 +23,7 @@ hugo new content blog/my-post.md
 
 Pushes to `main` build the site and publish it to the `gh-pages` branch
 (`.github/workflows/hugo.yml`), which GitHub Pages serves at
-<https://zforster.github.io/Zakonomics/>.
+<https://zakonomics.com/> (custom domain set in `static/CNAME`).
 
 ## Customise
 
