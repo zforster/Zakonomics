@@ -1,7 +1,7 @@
 +++
 title = "Why Quality Factor Investing Matters More Than Ever"
 date = 2026-10-15T06:00:00Z
-draft = false
+draft = true
 slug = 'quality-factor-investing'
 tags = ['investing', 'ETFs', 'quality factor', 'AI']
 description = "Work in progress: notes and research for a post on quality factor investing."
