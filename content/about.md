@@ -8,4 +8,4 @@ Hi, I'm Zak! Professionally, I'm a London-based **software engineer** with exper
 
 My interest in finance extends beyond the workplace. **Zakonomics** is a space where I can share my views on **investing, economics and politics**, with a strong UK lens.
 
-Everything here is personal opinion, **not financial advice**.
+Everything here is personal opinion, not financial advice.
