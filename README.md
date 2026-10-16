@@ -21,9 +21,9 @@ hugo new content blog/my-post.md
 
 ## Deploy
 
-Pushes to `main` build the site and publish it to the `gh-pages` branch
-(`.github/workflows/hugo.yml`), which GitHub Pages serves at
-<https://zakonomics.com/> (custom domain set in `static/CNAME`).
+Pushes to `main` build the site and deploy it with GitHub Actions
+(`.github/workflows/hugo.yml`; Settings → Pages → Source: GitHub Actions)
+to <https://zakonomics.com/>. The custom domain is also recorded in `static/CNAME`.
 
 ## Customise
 
