@@ -15,7 +15,7 @@ ignoreErrors = ['error-disable-taxonomy']
 
 [params]
   title = 'Zakonomics'
-  description = 'I write about pensions, investing, UK politics and other things most people find boring.'
+  description = 'Writing about investing, economics, UK politics and other things most people find boring.'
   favicon = 'favicon.png'
   copyright = '© 2026 Zakonomics'
   groupByYear = true
