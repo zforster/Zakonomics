@@ -9,7 +9,7 @@ description = "Nest has no all-equity fund, and it's costing its youngest member
 
 In my early twenties, while at university, I worked a part time contracting role for a large UK based asset manager. It was through this employement that I became an auto-enrolled member of Nest pensions; the UK's largest workplace pension scheme.
 
-Until recently, I was one the 13 million people in the UK holding a pension through Nest. While transferring my pension out, I browsed the various fund options, intrigued at how the offering had changed in the 6 years since I switched out of the default. Sadly, I have bad news for those seeking an all-equity portfolio as **Nest offers its members no equity only option**.
+Recently, I browsed the various funds that Nest provide; intrigued at how their offering had changed in since I last evaluated the options and decided to switch out of the default. Sadly, I have bad news for those seeking an all-equity portfolio as **Nest offers its members no equity only option**.
 
 In my opinion Nest needs to address this lack of choice. It particuarly harms those engaged younger investors like myself who understand risk, their investment time horizon and the benefits of long term equity ownership. I believe the lack of an equity only offering is against the long term interests of Nests' members, particuarly those who want agency over their portfolio and are seeking to maximise their savings in retirement.
 
