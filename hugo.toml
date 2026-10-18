@@ -23,6 +23,7 @@ ignoreErrors = ['error-disable-taxonomy']
   postSearch = true
   toc = false
   imageZoom = true
+  externalLinksNewTab = true
 
   [params.footer]
     hideRSSAndEmail = true
